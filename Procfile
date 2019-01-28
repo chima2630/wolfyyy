@@ -1,0 +1,1 @@
+worker: pythong bot.py

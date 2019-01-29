@@ -42,7 +42,7 @@ async def serverinfo(ctx):
     Server Info.
     """
     embed = discord.Embed(name="{}'s info".format(ctx.message.server.name), description="Important Info.", color=0xffff00)
-    embed.set_author(name="⭐ServerForMorfars!⭐")
+    embed.set_author(name="Zeus Core Service")
     embed.add_field(name="Owner", value=ctx.message.server.owner, inline=True)
     embed.add_field(name="ID", value=ctx.message.server.id, inline=True)
     embed.add_field(name="Roles", value=len(ctx.message.server.roles), inline=True)

@@ -14,7 +14,7 @@ async def on_ready():
     print('Logged in as')
     print(bot.user.name)
     print(bot.user.id)
-    await bot.change_presence(game=discord.Game(name="|BA| -help", type = 3))
+    await bot.change_presence(game=discord.Game(name="|IDF| -help", type = 3))
 
 @bot.command(pass_context=True)
 async def echo(ctx, *, echo: str):
@@ -164,4 +164,4 @@ async def v_unmute(ctx, member: discord.Member):
     embed.set_author(name=ctx.message.author.name, icon_url=ctx.message.author.avatar_url)
     await bot.say(embed=embed)
 
-bot.run("NTQyNzEzNDcyNzk5MjExNTQw.DzyA3Q.GWh7djd57PNBvu1GDabpdSvMWFg")
+bot.run("NTQyNzc0NTAxMDA0Mjc5ODI4.Dzy6Eg.oCOvPq4GEwcCI825_WmPyKAh3vs")

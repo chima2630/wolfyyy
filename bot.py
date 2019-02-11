@@ -164,4 +164,4 @@ async def v_unmute(ctx, member: discord.Member):
     embed.set_author(name=ctx.message.author.name, icon_url=ctx.message.author.avatar_url)
     await bot.say(embed=embed)
 
-bot.run("NTQzNzQwOTAyNDQzNTgxNDYy.D0A9sw.pUUDVLeAm1_ZREnoQFe_ItuisXI")
+bot.run("NTQyNzEzNDcyNzk5MjExNTQw.D0NqrA.w0d51mPlcez7vXLhJP5aaMzrqfk")
